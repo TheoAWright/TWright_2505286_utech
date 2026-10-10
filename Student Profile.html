@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Profile</title>
+
+	<style>
+
+        	body {
+            		font-family: Arial, sans-serif;
+	    		color: #333;
+            		background-color: #f4f4f9;
+        	}
+
+        
+        	header {
+        		text-align: center;
+        		background-color: #003366;
+        		color: #ffffff;
+		}
+
+
+        	footer {
+            		text-align: center;
+            		font-size: 100%;
+            		color: #666;
+            		margin-top: 10px;
+        	}
+
+		.topnav {
+			background-color: #003366;
+ 			overflow: hidden;
+			display: flex;
+			justify-content: center;
+		}
+
+
+		.topnav a {
+			color: #f2f2f2;
+			text-align: center;
+			padding: 10px 100px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+
+		.topnav a:hover {
+  			background-color: #ddd;
+  			color: black;
+		}
+
+		
+		h1 {
+  			border: 2px solid #D7EEFF;
+  			padding: 10px;
+  			color: black;
+  			font-family: verdana;
+  			font-size: 16px;
+  			text-align: center;
+		}
+
+		h2 {
+  			color: black;
+  			font-family: verdana;
+  			font-size: 14x;
+		}
+
+
+		p {
+  			color: black;
+  			font-family: georgia;
+  			font-size: 20px;
+		}
+
+		li {
+			color: black;
+  			font-family: georgia;
+ 			font-size: 20px;
+		}
+
+		table, th, td {
+  			border:1px solid black;
+			font-family: georgia;
+			table-layout: fixed;
+			flex-shrink: 0;
+		
+		}
+
+   	</style>
+	
+	<header>The University of Technology</header>
+	
+	<div class="topnav">
+  		<a class="active" href="#home">Home</a>
+  		<a href="#about">About Me</a>
+  		<a href="#courses">Courses</a>
+  		<a href="#contact">Contact Me</a>
+	</div>
+
+</head>
+
+<body>
+
+
+	<h1 id="home">Home</h1>
+	<h2 align= "center"> Welcome To My Profile</h2>
+	
+	<div style="text-align: center;">
+		<img src="University-of-Technology-Jamaica-logo-UTech.jpg" alt="No Image" height= 400px width= 400px>
+	
+		<img src="SCIT.jpg" alt="No Image" height= 400px width= 400px>
+	</div>
+
+	<br>
+	<br>
+
+	<h1 id="about">About Me</h1>
+	<img src="Theo_Wright_Picture1.jpg" alt="No Image" height= 400px width= 400px style="display: block; margin: 0 auto;">
+	<p align= center> Student Name: Theo Wright</p>
+	<p align= center> Programme: Bsc. in Computing</p>
+	<p align= center> Year of study: 2026-2027</p>
+	<p align= center> Biography: My name is Theo Wright, I'm a student of The University of Technology.<br>
+	I am apart of the School of Computing and Information Technology. This is my second year.</p>
+
+	
+	
+	
+	<h1 id="courses">Courses</h1>
+	
+	<h2 align= "left">My Courses</h2>
+
+	<ul>
+  		<li>Physics for Computer Studies</li>
+		<br>
+  		<li>Introductory Statistics</li>
+		<br>
+  		<li>Critical Thinking, Reading and Writing</li>
+		<br>
+		<li>Web Programming</li>
+		<br>
+  		<li>Object Oriented Programming</li>
+	</ul>
+	
+	<br>
+
+	<h2 align= "center">My Weekly Schedule</h2>
+
+	<table style="width:100%">
+  	<tr>
+   		<th>Physics for Computer Studies</th>
+    		<th>Introductory Statistics</th>
+    		<th>Critical Thinking, Reading and Writing</th>
+		<th>Web Programming</th>
+    		<th>Object Oriented Programming</th>
+  	</tr>	
+	<tr>
+   		<td>Monday 8am - 11am</td>
+    		<td>Tuesday 2pm - 4pm</td>
+    		<td>Wednesday 1pm - 3pm</td>
+		<td>Thursday 12pm - 2pm</td>
+    		<td>Friday 3pm - 5pm</td>
+	</tr>
+	</table>
+
+	<br>
+	<br>
+
+	<h1 id="contact">Contact Me</h1>
+
+	<form>
+  		<label for="name">Name:</label><br>
+  		<input type="text" id="name" name="fname"><br>
+		<label for="email">Email:</label><br>
+  		<input type="email" id="email" name="email"><br>
+		<label for="message">Message:</label><br>
+		<textarea id="message" name="message" rows="5" cols="40"> </textarea> <br>		
+
+		<button type="submit">Submit</button>
+
+  	</form>
+
+	<footer>
+    		&copy; 2026 Theo Wright's Webpage. All rights reserved.
+    	</footer>
+
+</body>
+
+</html>
